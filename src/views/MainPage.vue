@@ -9,7 +9,7 @@
 <script>
 // @ is an alias to /src
 
-import ContentSection from "@/views/Contenter";
+import ContentSection from "@/views/Content";
 import FooterSection from "@/views/Footer";
 import HeaderSection from "@/views/Header";
 export default {
