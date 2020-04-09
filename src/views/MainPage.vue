@@ -1,8 +1,10 @@
 <template>
-  <div id="MainPage">
-    <header-section></header-section>
-    <content-section></content-section>
-    <footer-section></footer-section>
+  <div id="MainPage" class="flex">
+    <div class="flex column main-panel">
+      <header-section style="flex: 20%"></header-section>
+      <content-section style="flex: 60%"></content-section>
+      <footer-section style="flex:0 0 10%"></footer-section>
+    </div>
   </div>
 </template>
 
@@ -26,6 +28,20 @@ export default {
 #MainPage {
   width: 100vw;
   height: 100vh;
-  background-color: #2c3e50;
+  background-color: #1C172D;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.main-panel {
+  width: 80%;
+  height: 100%;
 }
 </style>

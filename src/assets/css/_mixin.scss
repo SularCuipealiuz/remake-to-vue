@@ -1,0 +1,28 @@
+@mixin relative {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+@mixin absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@mixin aspect__spacer-config($scale) {
+  width: 100%;
+  height: 0;
+  padding-bottom: $scale;
+  position: relative;
+
+  .aspect__box {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+    .holder-img {
+      position: absolute;
+    }
+  }
+}

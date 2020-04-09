@@ -5,6 +5,19 @@
 </template>
 
 <style lang="scss">
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+abbr[title],
+acronym[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
 body {
   margin: 0;
 }
@@ -14,7 +27,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #1C172D;
 }
 
 #nav {
@@ -22,7 +35,7 @@ body {
 
   a {
     font-weight: bold;
-    color: #2c3e50;
+    color: #1C172D;
 
     &.router-link-exact-active {
       color: #42b983;
