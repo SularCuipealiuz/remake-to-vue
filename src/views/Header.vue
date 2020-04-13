@@ -2,7 +2,7 @@
   <div class="headerGroup">
     <div class="topframe">
       <div class="logBox">
-        <img src="./images/logo.png" />
+        <img src="../assets/images/logo.png" />
       </div>
       <div class="navBar">
         <ul class="navBar-nav">
@@ -101,7 +101,7 @@ div.navBar {
   font-size: 13px;
   text-align: center;
   /*background: url(http://hh917.tt289.com:8080/resources/images/navBg23.jpg) repeat-x;*/
-  background: url(./images/navBg23.jpg) repeat-x;
+  background: url(../assets/images/navBg23.jpg) repeat-x;
   /*flex-direction: row;*/
   margin: 50px auto 0;
   position: relative;
@@ -113,7 +113,7 @@ div.navBar:before {
   content: "";
   width: 14px;
   /*background: url(http://hh917.tt289.com:8080/resources/images/navBgLeft.png) no-repeat;*/
-  background: url(./images/navBgLeft.png) no-repeat;
+  background: url(../assets/images/navBgLeft.png) no-repeat;
   position: absolute;
   left: -12px;
   height: 52px;
@@ -122,7 +122,7 @@ div.navBar:after {
   content: "";
   width: 25px;
   /*background: url(http://hh917.tt289.com:8080/resources/images/navBgRight.png) no-repeat;*/
-  background: url(./images/navBgRight.png) no-repeat;
+  background: url(../assets/images/navBgRight.png) no-repeat;
   position: absolute;
   right: -24px;
   height: 52px;
@@ -137,7 +137,7 @@ ul.navBar-nav > li {
 }
 ul.navBar-nav > li:not(:first-of-type) {
   /*background: url(http://hh917.tt289.com:8080/resources/images/topNav_li.jpg) left top no-repeat;*/
-  background: url(./images/topNav_li.jpg) left top no-repeat;
+  background: url(../assets/images/topNav_li.jpg) left top no-repeat;
 }
 ul.navBar-nav {
   margin-left: -40px;
