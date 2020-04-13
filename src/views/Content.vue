@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="height: 100%">
     <div class="electronicGroup">
     	<img alt="" src="../assets/images/electronic_banner_pc_01.jpg" class="electronic_banner_pc">
     </div>

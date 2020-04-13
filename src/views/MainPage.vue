@@ -1,9 +1,9 @@
 <template>
-  <div id="MainPage" class="flex">
+  <div id="MainPage" class="flex center">
     <div class="flex column main-panel">
       <header-section style="flex: 20%"></header-section>
       <content-section style="flex: 60%"></content-section>
-      <footer-section style="flex:0 0 10%"></footer-section>
+      <footer-section style="flex:0 0 100px"></footer-section>
     </div>
   </div>
 </template>
@@ -27,11 +27,13 @@ export default {
 <style lang="scss" scoped>
 #MainPage {
   width: 100vw;
-  height: 100vh;
   background-color: #1C172D;
 }
 .flex {
   display: flex;
+}
+
+.center{
   justify-content: center;
   align-items: center;
 }
@@ -41,7 +43,6 @@ export default {
 }
 
 .main-panel {
-  width: 80%;
   height: 100%;
 }
 </style>
