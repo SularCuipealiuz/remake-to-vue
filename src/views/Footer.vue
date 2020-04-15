@@ -1,5 +1,5 @@
 <template>
-  <div class="flex center footer column">
+  <section class="flex center footer column">
     <div class="flex router-panel">
       <router-link to="">关于我们</router-link>
       <router-link to="">联系我们</router-link>
@@ -11,11 +11,9 @@
       <router-link to="">线路入口</router-link>
     </div>
     <div class="flex center">
-      <span class="sub-label"
-        >Copyright © 皇冠彩票网 Reserved</span
-      >
+      <span class="sub-label">Copyright © 皇冠彩票网 Reserved</span>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -93,7 +91,7 @@ export default {
   }
 
   .sub-label {
-    color: #5C5A64;
+    color: #5c5a64;
     font-size: 12px;
   }
 }
