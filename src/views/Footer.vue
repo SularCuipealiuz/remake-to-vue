@@ -42,7 +42,7 @@ export default {
   width: 100%;
 
   .router-panel {
-    flex: 0 0 50%;
+    flex: 0 0 50px;
     width: 80%;
     justify-content: space-evenly;
     align-items: center;

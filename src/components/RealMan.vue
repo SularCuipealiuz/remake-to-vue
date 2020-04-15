@@ -1,8 +1,8 @@
 <template>
-  <div style="height:100%; width:100%">
+  <div id="realMan">
     <div class="realman-wrap">
       <div class="top-box">
-        <h2 lang="realman_title">官方信誉担保</h2>
+        <h2 class="realman_title">官方信誉担保</h2>
         <h4 class="h4-title" lang="realman_slogan">
           多平台战略合作伙伴强强联手/全面支持多端畅玩
         </h4>
@@ -77,6 +77,10 @@ export default {
 </script>
 
 <style scoped>
+#realMan {
+  height: 100%;
+  width: 100%;
+}
 div.realman-wrap {
   background: url("../assets/images/game_bg.png") repeat, #181f30;
   width: 100vw;

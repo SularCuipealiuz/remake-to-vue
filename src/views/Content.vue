@@ -1,14 +1,16 @@
 <template>
   <section id="content">
-    <member-center></member-center>
+    <!--    <member-center></member-center>-->
+    <real-man></real-man>
   </section>
 </template>
 
 <script>
-import MemberCenter from "@/views/MemberCenter";
+// import MemberCenter from "@/views/MemberCenter";
+import RealMan from "@/components/RealMan";
 export default {
   name: "Content",
-  components: { MemberCenter }
+  components: { RealMan }
 };
 </script>
 
