@@ -28,6 +28,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #1c172d;
+  height: 100vh;
 }
 
 #nav {

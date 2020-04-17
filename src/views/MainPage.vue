@@ -1,9 +1,9 @@
 <template>
   <section id="mainPage" class="flex">
     <div class="flex column layout-1 main-panel">
-      <header-section style="flex:0 0 100px"></header-section>
-      <content-section style="flex:1 1 60%;"></content-section>
-      <footer-section style="flex:0 0 100px"></footer-section>
+      <header-section style="height: 100px"></header-section>
+      <content-section style=""></content-section>
+      <footer-section style="height: 100px"></footer-section>
     </div>
     <black-cover v-show="false" class="flex layout-2"></black-cover>
     <pop-modal v-show="false" class="flex layout-3"></pop-modal>
@@ -33,6 +33,7 @@ export default {
 <style lang="scss" scoped>
 #mainPage {
   width: 100vw;
+  height: 100%;
   background-color: #1c172d;
 }
 .flex {

@@ -1,16 +1,20 @@
 <template>
   <section id="content">
-    <!--    <member-center></member-center>-->
-    <sport-game></sport-game>
+    <member-center v-show="false"></member-center>
+    <real-man v-show="false"></real-man>
+    <sport-game v-show="false"></sport-game>
   </section>
 </template>
 
 <script>
 // import MemberCenter from "@/views/MemberCenter";
 import SportGame from "@/components/SportGame";
+import MemberCenter from "@/views/MemberCenter";
+import RealMan from "@/components/RealMan";
+
 export default {
   name: "Content",
-  components: { SportGame }
+  components: { RealMan, MemberCenter, SportGame }
 };
 </script>
 
