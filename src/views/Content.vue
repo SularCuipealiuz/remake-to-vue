@@ -1,16 +1,16 @@
 <template>
   <section id="content">
     <!--    <member-center></member-center>-->
-    <real-man></real-man>
+    <sport-game></sport-game>
   </section>
 </template>
 
 <script>
 // import MemberCenter from "@/views/MemberCenter";
-import RealMan from "@/components/RealMan";
+import SportGame from "@/components/SportGame";
 export default {
   name: "Content",
-  components: { RealMan }
+  components: { SportGame }
 };
 </script>
 
