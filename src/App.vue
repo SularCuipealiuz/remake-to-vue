@@ -29,6 +29,7 @@ body {
   text-align: center;
   color: #1c172d;
   overflow-x: hidden;
+  min-height: 100vh;
 }
 
 #nav {

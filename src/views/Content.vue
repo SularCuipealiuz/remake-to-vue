@@ -1,6 +1,6 @@
 <template>
   <section id="content">
-    <member-center v-show="false"></member-center>
+    <member-center v-show="true"></member-center>
     <real-man v-show="false"></real-man>
     <sport-game v-show="false"></sport-game>
   </section>
@@ -19,8 +19,10 @@ export default {
 
 <style scoped>
 #content {
-  height: 100%;
   width: 100vw;
   flex: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 </style>

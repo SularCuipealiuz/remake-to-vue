@@ -1,10 +1,10 @@
 <template>
-  <section id="memberCenter" class="flex center">
+  <div id="memberCenter" class="flex center">
     <div class="flex panel profile">
       <div class="profile"></div>
       <div class="ctrl-panel"></div>
     </div>
-  </section>
+  </div>
 </template>
 
 <script>
@@ -15,10 +15,9 @@ export default {
 
 <style lang="scss" scoped>
 #memberCenter {
-  height: 100%;
   width: 100%;
+  height: 100%;
   background-color: #f4f4f4;
-  /*padding: 15px 0;*/
 }
 
 .flex {

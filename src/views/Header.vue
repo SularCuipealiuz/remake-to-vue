@@ -83,11 +83,10 @@ export default {
 </script>
 <style lang="scss" scoped>
 .headerGroup {
+  display: flex;
 }
 .topframe {
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
+  flex: auto;
   background: #1c172d;
   display: flex;
   justify-content: center;
@@ -174,8 +173,6 @@ div.loginBox button {
   white-space: nowrap;
   vertical-align: middle;
   user-select: none;
-  border: 0;
-  padding: 0.25rem 1rem;
   font-size: 14px;
   line-height: 1.5;
   border-radius: 0.25rem;
@@ -209,7 +206,7 @@ div.loginBox button {
 .logBox {
   flex: 0 0 150px;
   margin-right: 20px;
-  height: 100%;
+  height: 100px;
   img {
     height: 100%;
   }

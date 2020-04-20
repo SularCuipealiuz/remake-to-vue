@@ -2,6 +2,7 @@
   <section id="popModal">
     <div v-show="showNews"></div>
     <div v-show="showBankCard"></div>
+    <div v-show="showRegistered"></div>
   </section>
 </template>
 
@@ -11,7 +12,8 @@ export default {
   data() {
     return {
       showNews: false,
-      showBankCard: false
+      showBankCard: false,
+      showRegistered: true
     };
   }
 };
