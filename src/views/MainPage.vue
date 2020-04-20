@@ -1,7 +1,7 @@
 <template>
   <section id="mainPage" class="flex">
     <div class="flex column layout-1 main-panel">
-      <header-section style="height: 100px"></header-section>
+      <header-section style="height: 100px; min-height: 100px;"></header-section>
       <content-section style=""></content-section>
       <footer-section style="height: 100px"></footer-section>
     </div>
@@ -49,6 +49,7 @@ export default {
 .main-panel {
   width: 80%;
   height: 100%;
+  min-height: 100vh;
 
   > * {
     width: 100%;

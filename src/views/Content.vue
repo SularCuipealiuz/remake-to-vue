@@ -7,7 +7,6 @@
 </template>
 
 <script>
-// import MemberCenter from "@/views/MemberCenter";
 import SportGame from "@/components/SportGame";
 import MemberCenter from "@/views/MemberCenter";
 import RealMan from "@/components/RealMan";
@@ -22,5 +21,6 @@ export default {
 #content {
   height: 100%;
   width: 100vw;
+  flex: auto;
 }
 </style>
